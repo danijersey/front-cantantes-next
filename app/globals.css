@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--foreground);
+  background: var(--background);
+}
+
+.background {
+  background-image: url('/imagenes/fondo2.png');
+  background-repeat: repeat;
+  background-size: auto;
+  background-position: center;
+  height: 99vh;
+  width: 100vw;
+  position: relative; /* Para usar elementos absolutos dentro */
+}
+
+.imagenes {
+  position: absolute; 
+  right: 180px; 
+  top: 134px; 
+  z-index: 10; 
+}
+.imagene2{
+  position: absolute; 
+  left: 160px; 
+  top: 400px; 
+  /* z-index: 10;  */
+}
+.imagene3{
+  position: absolute; 
+  left: 160px; 
+  top: 160px; 
+  /* z-index: 10;  */
+}
+
+.imagene4{
+  position: absolute; 
+  left: 160px; 
+  top: 340px; 
+  /* z-i4dex: 10;  */
+}
+.imagenecuadrotexto{
+  position: absolute; 
+  right: 160px; 
+  top: 50px; 
+  /* z-i4dex: 10;  */
+}
+.imagenemenu{
+  position: absolute; 
+  right: 470px; 
+  top: 62px; 
+  /* z-i4dex: 10;  */
+}
+.imageneflecha{
+  position: absolute; 
+  left: 110px; 
+  top: 460px; 
+  /* z-i4dex: 10;  */
+}
+.imageneluna{
+  position: absolute; 
+  left: 180px; 
+  top:46px; 
+}
+.imageneestrellita{
+  position: absolute; 
+  right: 90px; 
+  top: 510px; 
+}
+
+.imagenCirculoNft{
+  position: relative;
+  top: 136px; 
+  left: 137px;
+  
+
+}
+
+.virgen {
+  width: 394px; /* Ajusta el ancho según sea necesario */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
+.formulario {
+  padding: 20px;
+  margin-top: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+th {
+  margin-left: 2px;
+}
+
+button {
+  background-color: transparent; 
+  color: #007BFF; 
+  border: 2px solid #007BFF; 
+  border-radius: 5px;
+  padding: 6px 15px; 
+  font-size: 14px; 
+  cursor: pointer; 
+  transition: background-color 0.3s, color 0.3s;
+}
